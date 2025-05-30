@@ -1,0 +1,247 @@
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+  }
+
+  .hero-wrapper {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero-image {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  .top-header {
+    background-color: #212529;
+    padding: 30px;
+    font-size: 15px;
+    padding-top: 20px;
+    color: white;
+    
+  }
+
+  .top-header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .search-panel {
+    background: rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .form-select {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+  }
+  .btn {
+    border-radius: 15px;
+    border-color: #fff;
+    background: #f0eeee0a;
+    color:#fff;
+    padding: 10px 20px;
+    font-weight: 400;
+  }
+.navbar-nav{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.mb-4{
+    font-size: 30px;
+    font-weight: 700;
+}
+.browse-section {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.type-card {
+  min-height: 250px;
+  border-radius: 40px; 
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.type-card img.object-cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.name-tag {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: linear-gradient(to right, #033d58, #0b2c4b, #01090c);
+  background-blend-mode: lighten;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.563);
+  cursor: pointer;
+
+}
+.type-box {
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.name-title {
+  font-size: 18px;
+  text-align: center;
+}
+.type-box img.object-cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;  
+}
+.brand-logo {
+  height: 150px;
+  width: auto;
+  object-fit: contain;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+.auction-card {
+  height: 300px;
+  background-color: #001f3f; /* fallback */
+}
+
+.auction-img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.auction-details {
+  width: 50%;
+  background: linear-gradient(to right, #033d58, #0b2c4b, #01090c)
+}
+
+.icon {
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.leasing-section .bg-white {
+  padding: 1rem !important; /* reduce padding */
+  border-radius: 10px !important; /* optional: smaller border radius */
+}
+
+.leasing-section .form-label {
+  font-size: 15px; /* slightly smaller labels */
+  height: 10px;
+  width: 100%; 
+}
+.leasing-section .form-select {
+  padding: 0.2rem 0.4rem !important; /* reduce padding inside dropdowns */
+  font-size: 18px;
+}
+
+.leasing-section .bg {
+  height: 85px !important; 
+  font-size: 20px; 
+  background:linear-gradient(to right, #033d58, #0b2c4b, #01090c);
+}
+.leasing-section{
+  padding-top: 200px;
+  margin-top: 30px;
+}
+.card-body {
+  background:linear-gradient(to right, #033d58, #0b2c4b, #01090c);
+  padding: 20px; 
+}
+.card{  
+  background:linear-gradient(to right, #033d58, #0b2c4b, #01090c);
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.testo-card{
+  background-color: #fff;
+  height: 200px;
+  border-width: 4px;
+  margin-top: 10px;
+}
+.card-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container-news{
+  padding: 20px;
+  border-radius: 20px;
+}
+.container-news:hover{
+  transform: scale(1.05);
+}
+.type {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  background:linear-gradient(to right, #033d58, #0b2c4b, #01090c);
+  background-blend-mode: lighten;
+  color: rgb(247, 246, 246);
+  padding: 10px 40px;
+  border-radius: 40px;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.563);
+  cursor: pointer;
+}
+.news-card{
+  cursor: pointer;
+}
+
+.card-img:hover img.object-cover {
+  transform: scale(1.1);
+  color: #fff;
+  font-size: 16px;
+}
+.fw-bold {
+  cursor: pointer;
+}
+.col-md-4{
+  padding: 5px;
+}
+.type-box:hover{
+  transform: scale(1.05);
+}
+.type-card:hover img.object-cover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
