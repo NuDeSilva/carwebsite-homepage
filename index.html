@@ -135,7 +135,7 @@
 
       <!-- BROWSE BY TYPE -->
       <section class="browse-section py-5 bg-light">
-        <div class="container">
+        <div class="container-fluid">
           <h2 class="mb-4">Browse by Type</h2>
           <div class="row g-4">
             <div class="col-12 col-md-6"><div class="type-card position-relative overflow-hidden rounded shadow"><img src="./src/assets/suv.jpg" alt="SUV" class="w-100 h-100 object-cover"><div class="name-tag">SUV</div></div></div>
@@ -149,7 +149,7 @@
 
       <!-- BROWSE BY BRAND -->
       <section class="browse-section py-5 bg-light">
-        <div class="container">
+        <div class="container-fluid">
           <h2 class="mb-4">Browse by Brand</h2>
           <div class="row g-4">
             <div class="col-6 col-md-4 col-lg-2 mb-4" v-for="(brand, index) in brands" :key="index">
@@ -167,7 +167,7 @@
 
 <!-- Live auction -->
 <section class="live-auction py-5 bg-light">
-  <div class="container">
+  <div class="container-fluid">
     <h2 class="mb-4">Live Auction In Japan</h2>
 
     <div class="row g-4">
@@ -270,7 +270,7 @@
 
 <!-- Featured Vehicles Section -->
 <section class="py-5 bg-light" v-if="featuredVehicles.length > 0">
-  <div class="container">
+  <div class="container-fluid">
     <!-- Title and View All -->
     <div class="d-flex justify-content-between align-items-center mb-4">
       <h2 class="mb-5 text-start fw-bold m-0">Featured Vehicles</h2>
@@ -324,7 +324,7 @@
 
 <!-- Testimonial Section -->
 <section class="py-5 bg-light">
-  <div class="container">
+  <div class="container-fluid">
     <h2 class="mb-4 text">Testimonials</h2>
     <div class="row g-4">
       <div class="col-md-4" v-for="(testimonial, index) in testimonials" :key="index">
