@@ -4,11 +4,20 @@ body, html {
   font-family: poppins, sans-serif;
 
 }
+.fixed-header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: transparent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 
 /* Hero section */
 .hero-wrapper {
   height: 100%;
-  
   position: relative;
   transition: filter 0.3s ease;
 }
@@ -35,6 +44,16 @@ body.menu-open .hero-wrapper {
 .top-header {
   background-color: #212529;
   padding: 30px 30px 20px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-header-secondary {
+  background-color: rgba(0, 0, 0, 0.623); 
+  backdrop-filter: blur(10px);
+  padding: 10px 30px 10px;
   font-size: 15px;
   color: white;
   display: flex;
@@ -128,8 +147,8 @@ body.menu-open .hero-wrapper {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8); 
-  backdrop-filter: blur(10px); 
+  background-color: rgba(0, 0, 0, 0.623); 
+  backdrop-filter: blur(30px); 
 } 
 .navbar-nav {
   margin-left: 40px;
